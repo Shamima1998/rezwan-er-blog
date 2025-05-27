@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="blog">
+      <nav class="navbar">
+      <div class="logo">Rezwan's Blog</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+<div class="first-area">
+    <div class="image">
+        <img src="https://github.com/user-attachments/assets/c71da947-bd5a-4d23-ade1-cbb8fed7085c" alt="">
+    </div>
+    <div class="welcome">
+     <h2><span class="wel">👋 Hey friend!</span>
+        <br/> 
+        <span class="highlight">Welcome</span> to my tech space!</h2>
+    <p>
+      <span class="rez">I'm Rezwan,</span> a curious software engineer who loves writing code, solving problems, and sharing the ride. 
+      <br/> 
+      This blog is where I talk tech, tips, tiny wins, and even the bugs I’ve battled.  
+      <br/>
+      Stay a while — I think you’ll like it here!
+    </p>
+    </div>
+</div>
+<div class="creat-blog">
+    <div class="first-post">
+
+<!-- The Modal -->
+<div id="blogModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Memories at Fashol.com</h2>
+    <!-- continue your full blog here -->
+  </div>
+</div>
+<div class="blog-card">
+  <img src="https://github.com/user-attachments/assets/5ff79e03-0a02-4a0c-b2e0-c70ff74a069b" alt="Fashol" class="blog-img">
+  <h3>Memories at Fashol.com</h3>
+  <p>Working at Fashol.com was full of unforgettable moments and friendship...</p>
+  <!-- নিচের এই লিংকে তোমার ব্লগের আসল URL দাও -->
+  <a href="https://shamima1998.github.io/public/" target="_blank">
+    <button>Read More</button>
+  </a></div>
+
+<!-- Blog Modal -->
+<div id="blogModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Full Blog: My Fashol Journey</h2>
+    <!-- full blog content here -->
+  </div>
+<script>
+  const openBtn = document.getElementById("openBlog");
+  const modal = document.getElementById("blogModal");
+  const closeBtn = document.querySelector(".close");
+
+  openBtn.onclick = () => {
+    modal.style.display = "block";
+  }
+
+  closeBtn.onclick = () => {
+    modal.style.display = "none";
+  }
+
+  window.onclick = (event) => {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+</div></div>
+
+<div class="second-post">
+  <div id="blogModal" class="modal-two">
+  <div class="modal-content-two">
+    <span class="close">&times;</span>
+    <h2>Memories at Fashol.com</h2>
+    <!-- continue your full blog here -->
+  </div>
+</div>
+<div class="blog-card-two">
+  <div class="first-post">
+  <img src="https://github.com/user-attachments/assets/bb28da5b-c31f-4402-b3d7-788a9937f88d" alt="Fashol" class="blog-img">
+  <h3>Memories at Fashol.com</h3>
+  <p>Working at Fashol.com was full of unforgettable moments and friendship...</p>
+  <!-- নিচের এই লিংকে তোমার ব্লগের আসল URL দাও -->
+  <a href="your link" target="_blank">
+    <button>Read More</button>
+  </a></div>
+
+<!-- Blog Modal -->
+<div id="blogModal" class="modal-two">
+  <div class="modal-content-two">
+    <span class="close">&times;</span>
+    <h2>Full Blog: My Fashol Journey</h2>
+    <!-- full blog content here -->
+  </div>
+<script>
+  const openBtn = document.getElementById("openBlog");
+  const modal = document.getElementById("blogModal");
+  const closeBtn = document.querySelector(".close");
+
+  openBtn.onclick = () => {
+    modal.style.display = "block";
+  }
+
+  closeBtn.onclick = () => {
+    modal.style.display = "none";
+  }
+
+  window.onclick = (event) => {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+</div></div>
+</div>
+</div>
+  <div class="wave-footer">
+    <h2>Thanks for visiting my website! </h2>
+    <div class="wave"></div>
+  </div>
+   
+</body>
+</html>
